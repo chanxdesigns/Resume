@@ -1,3 +1,55 @@
+.details-header {
+  text-align: center;
+  font-weight: 300 !important; }
+
+.add-details-form {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+  border: 1px solid #eeeeee;
+  border-radius: 4px; }
+
+form .form-group {
+  padding: 40px;
+  background: #ffffff;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc; }
+  form .form-group:last-of-type {
+    margin-bottom: 0;
+    border-bottom: 1px solid #ccc; }
+  form .form-group label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #333; }
+  form .form-group p {
+    padding: 0;
+    margin: 5px 0; }
+    form .form-group p.help {
+      font-size: 0.8rem;
+      color: gray; }
+  form .form-group input {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 4px;
+    border: 1px solid #7093cc; }
+  form .form-group input[type="submit"] {
+    background: #4B77BE;
+    border: none;
+    height: 50px; }
+  form .form-group textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #7093cc; }
+
 body {
   font-family: "Open Sans", sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -36,43 +88,8 @@ header {
         padding: 0;
         display: inline-block; }
 
-.add-details-form {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  width: 40%;
-  border: 1px solid #eeeeee;
-  border-radius: 4px; }
-
-form .form-group {
-  padding: 40px;
-  background: #ffffff;
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc; }
-  form .form-group:last-of-type {
-    margin-bottom: 0;
-    border-bottom: 1px solid #ccc; }
-  form .form-group label {
-    display: block;
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    margin-bottom: 5px; }
-  form .form-group input {
-    width: 100%;
-    height: 40px;
-    border-radius: 4px;
-    border: 1px solid #7093cc; }
-  form .form-group input[type="submit"] {
-    background: #4B77BE;
-    border: none;
-    height: 50px; }
-  form .form-group textarea {
-    width: 100%;
-    height: 100px;
-    border-radius: 4px;
-    border: 1px solid #7093cc; }
+.jumbo-text {
+  font-size: 30px;
+  font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */
