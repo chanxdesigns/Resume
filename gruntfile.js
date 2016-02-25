@@ -7,7 +7,7 @@ module.exports = function (grunt) {
       sass: {
           dist: {
               files: {
-                  "dist/css/style.css" : "sass/style.scss"
+                  "public/css/style.css" : "sass/style.scss"
               }
           }
       },
@@ -16,13 +16,13 @@ module.exports = function (grunt) {
               cwd: "",
               expand: true,
               src: "*.html",
-              dest: "dist/"
+              dest: "public/"
           },
           js: {
               cwd: "js",
               expand: true,
               src: "*.js",
-              dest: "dist/js"
+              dest: "public/js"
           }
       }
   });
