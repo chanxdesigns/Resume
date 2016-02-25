@@ -11,7 +11,9 @@
     "grunt-contrib-copy": "latest"
   },
   "main": "main.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "latest"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
